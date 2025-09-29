@@ -10,3 +10,7 @@ let booleano2 = true;
 const PI = 3.14;
 
 //  4.- Crear variable tipo const de nombre TAU declarada con valor 2 veces PI
+
+// - [ ] 7.- Crear variable **booleanoMix0** cuyo valor sea la compración booleana **(booleano1 or booleano2) and (booleano1 or (not booleano1 and not booleano2)**
+
+let booleanoMix0 = (booleano1 || booleano2) && (booleano1 || (!booleano1 && !booleano2));
